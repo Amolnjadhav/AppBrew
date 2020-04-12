@@ -1,22 +1,26 @@
 {
   "name": "vmt",
   "version": "1.0.0",
-  "description": "Virtual InfraStructure Scanner ",
+  "description": "project VMT package",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "AmolJ",
+  "author": "Amol Jadhav",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
-    "cor": "0.0.0",
-    "cors": "^2.8.5",
-    "ejs": "^3.0.1",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.0.2",
     "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "fs-extra": "^9.0.0",
     "lodash": "^4.17.15",
-    "request": "^2.88.2",
-    "socket.io": "^2.3.0",
-    "ssl-root-cas": "^1.3.1"
+    "md5": "^2.2.1",
+    "mongoose": "^5.9.7",
+    "mongoose-findorcreate": "^3.0.0",
+    "passport": "^0.4.1",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-local-mongoose": "^6.0.1"
   }
 }
