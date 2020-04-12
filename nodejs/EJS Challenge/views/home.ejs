@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<%- include('partials/header'); -%>
+    <H1>Home</H1>
+    <p><%= StartingContent %></p>
+
+
+  <% postContent.forEach(function(content){ %>
+      <% console.log(content.cTitle); %>
+      <H1><%= content.cTitle %></H1>
+      <p><%= content.cBody %></p>
+  <% }); %>
+
+
+<%- include('partials/footer'); -%>
